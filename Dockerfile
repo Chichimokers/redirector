@@ -13,8 +13,6 @@ COPY . .
 # Expone el puerto UDP 9987
 EXPOSE 9987/udp
 
-RUN npm install
-
 # Comando para ejecutar la aplicación
 CMD ["node", "app.js"]
 
