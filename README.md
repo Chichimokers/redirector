@@ -1,13 +1,18 @@
 # redirector
 
-## Tecnologias
-
-- Dockerfile
-- JavaScript
+## Lenguajes
+- {'size': 340, 'node': {'name': 'Dockerfile'}}
+- {'size': 741, 'node': {'name': 'JavaScript'}}
 
 ## Instalacion
 
-Clona el repositorio y sigue las instrucciones especificas del proyecto.
+```bash
+git clone https://github.com/Chichimokers/redirector.git
+cd redirector
+pip install -r requirements.txt  # o npm install
+python run.py  # o npm run dev
+```
 
 ---
-(c) 2026 Chichimokers -- https://github.com/Chichimokers/redirector
+
+(c) 2026 Chichimokers - Proyecto Privado
